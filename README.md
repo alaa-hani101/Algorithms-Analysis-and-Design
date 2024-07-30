@@ -34,7 +34,7 @@ Each section below details a specific algorithm, including its purpose, complexi
 * **Time Complexity:** O(n^2) average and worst case, O(n) best case (already sorted).
 * **Space Complexity:** O(1) (in-place sorting).
 * **Applications:** Small datasets, online algorithms, partially sorted data.
-* **Code Example:** [Link to file containing Insertion Sort implementation]
+* **Code Example:** [Link to file containing Insertion Sort implementation](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/insertion_sort.cpp)
 * **Additional Resources:** [Link to Insertion Sort tutorial]
 
 
@@ -44,7 +44,7 @@ Each section below details a specific algorithm, including its purpose, complexi
 * **Time Complexity:** O(n log n) in all cases.
 * **Space Complexity:** O(n) for auxiliary space.
 * **Applications:** Sorting large datasets, external sorting.
-* **Code Example:** [Link to file containing Merge Sort implementation]
+* **Code Example:** [Link to file containing Merge Sort implementation](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Merge_sort.cpp)
 * **Additional Resources:** [Link to Merge Sort tutorial]
 
 ### Binary Search
@@ -53,7 +53,7 @@ Each section below details a specific algorithm, including its purpose, complexi
 * **Time Complexity:** O(log n).
 * **Space Complexity:** O(1).
 * **Applications:** Searching in sorted arrays, finding lower/upper bounds.
-* **Code Example:** [Link to file containing Binary Search implementation]
+* **Code Example:** [Link to file containing Binary Search implementation](Algorithms-Analysis-and-Design/blob/main/Binary%20Search.cpp)
 * **Additional Resources:** [Link to Binary Search tutorial]
 
 ### Segregating Positive and Negative Numbers
@@ -62,7 +62,7 @@ Each section below details a specific algorithm, including its purpose, complexi
 * **Time Complexity:** O(n).
 * **Space Complexity:** O(1) (in-place).
 * **Applications:** Data preprocessing, sorting-related algorithms.
-* **Code Example:** [Link to file containing Segregation implementation]
+* **Code Example:** [Link to file containing Segregation implementation](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/sregregate%20positive%20and%20negative%20nums%20%20.cpp)
 * **Additional Resources:** [Link to Segregation tutorial]
 
 ### "Greedy Algorithms"
@@ -84,7 +84,7 @@ A greedy approach can be used to solve this problem efficiently.
 **Time Complexity:** O(n log n) for sorting, O(n) for selecting activities.
 **Space Complexity:** O(1)
 * **Applications:** Vehicle Routing ,Operating System Process Scheduling.
-* **Code Example:** [Link to file implementing Huffman Coding]
+* **Code Example:** [Link to file implementing Huffman Coding](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Activity%20Selection%20prob(Greedy).cpp)
 
 ### Huffman Coding
 
@@ -92,8 +92,7 @@ A greedy approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(n log n) for building the Huffman tree.
 * **Space Complexity:** O(n) for the Huffman tree.
 * **Applications:** Data compression.
-* **Code Example:** [Link to file implementing Huffman Coding]
-* **Additional Resources:** [Link to Huffman Coding tutorial]
+* **Code Example:** [Link to file implementing Huffman Coding](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/HUffmanMain.cpp)
 
 ### Fractiona Knapsack Problem
 
@@ -101,7 +100,7 @@ A greedy approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(nW) where n is the number of items and W is the knapsack capacity.
 * **Space Complexity:** O(nW) for the dynamic programming table.
 * **Applications:** Resource allocation, optimization problems.
-* **Code Example:** [Link to file implementing Knapsack problem]
+* **Code Example:** [Link to file implementing Knapsack problem](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Knapsack.cpp)
 
 
 
@@ -114,7 +113,7 @@ A greedy approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(mn) where m and n are the lengths of the sequences.
 * **Space Complexity:** O(mn) for the dynamic programming table.
 * **Applications:** Bioinformatics, text editing.
-* **Code Example:** [Link to file implementing LCS algorithm]
+* **Code Example:** [Link to file implementing LCS algorithm](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Longest%20Common%20Subsequence.cpp)
 
 
 ### Stagecoach Problem 
@@ -130,7 +129,7 @@ Given a set of jobs with their profit and deadline, find the maximum profit that
    * If the current job cannot be scheduled, find the latest job with a deadline earlier than the current job's deadline and replace it if the current job's profit is higher.
 * **Time Complexity:** O(n^2) in the worst case due to nested loops.
 * **Space Complexity:** O(n) for the slots array.
-* **Code Example:** [Link to file implementing Prim's algorithm]
+* **Code Example:** [Link to file implementing Prim's algorithm](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/stagecoach%20problem.cpp)
 
 ### Knapsack Problem (0/1 Knapsack)
 
@@ -141,7 +140,7 @@ A dynamic programming approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(nW) where n is the number of items and W is the knapsack capacity.
 * **Space Complexity:** O(nW) for the dynamic programming table.
 * **Applications:** Portfolio Management, Resource Allocation.
-* **Code Example:** [Link to file implementing Prim's algorithm]
+* **Code Example:** [Link to file implementing Prim's algorithm](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/kanpsack%200-1.cpp)
 
 
 ### "Dynamic Programming"
@@ -153,7 +152,7 @@ A dynamic programming approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(E log V) or O(E + V log V) depending on the implementation.
 * **Space Complexity:** O(E + V).
 * **Applications:** Network design, clustering.
-* **Code Example:** [Link to file implementing Prim's algorithm]
+* **Code Example:** [Link to file implementing Prim's algorithm](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/prim's%20minimam%20spanning%20tree.cpp)
 
 
 ### Depth-First Search (DFS)
@@ -162,7 +161,7 @@ A dynamic programming approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(V + E) where V is the number of vertices and E is the number of edges.
 * **Space Complexity:** O(V) for the recursion stack.
 * **Applications:** Topological sorting, cycle detection, finding connected components.
-* **Code Example:** [Link to file implementing DFS]
+* **Code Example:** [Link to file implementing DFS](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Deapth%20First%20Search.cpp)
 
 
 ### Breadth-First Search (BFS)
@@ -171,7 +170,7 @@ A dynamic programming approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(V + E) where V is the number of vertices and E is the number of edges.
 * **Space Complexity:** O(V) for the queue.
 * **Applications:** Shortest path in unweighted graphs, finding connected components.
-* **Code Example:** [Link to file implementing BFS]
+* **Code Example:** [Link to file implementing BFS](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Breadth-first%20search.cpp)
 
 
 ### Dijkstra's Algorithm
@@ -180,7 +179,7 @@ A dynamic programming approach can be used to solve this problem efficiently.
 * **Time Complexity:** O(V^2) using adjacency matrix, O((V + E) log V) using min-heap.
 * **Space Complexity:** O(V) for the distance array.
 * **Applications:** Routing protocols, network optimization.
-* **Code Example:** [Link to file implementing Dijkstra's algorithm]
+* **Code Example:** [Link to file implementing Dijkstra's algorithm](https://github.com/alaa-hani101/Algorithms-Analysis-and-Design/blob/main/Dijkestra%20Algorithm.cpp)
 
 
 ## Running the Code
